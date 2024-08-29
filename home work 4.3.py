@@ -1,6 +1,6 @@
 import random
 
-list  = random.randint(3, 10)  # Кількість елементів у списку від 3 до 10
+list  = random.randint(3, 10)
 random_list = [random.randint(1, 10) for i in range(list)]
 
 first = 0
@@ -17,7 +17,7 @@ print(new_list)
 
 import random
 
-list  = random.randint(3, 5)  # Кількість елементів у списку від 3 до 10
+list  = random.randint(3, 5)
 random_list = [random.randint(1, 10) for i in range(list)]
 
 first = 0

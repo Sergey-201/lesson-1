@@ -22,7 +22,7 @@ while True:
         if operation in ['+', '-', '*', '/'] and not (operation == '/' and n2 == 0):
 
             print(f"Результат: {result}")
-        continue_ = input("( для продолжения введите: y, для завершения введите: q  ): ").lower()
+        continue_ = input("( для продолжения введите: y, для завершения введите: q  ): ")
 
         if continue_ == 'q':
             print("Работа завершена.")
